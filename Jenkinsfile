@@ -20,5 +20,10 @@ pipeline{
                 echo 'going to depoly'
             }
         }
+        stage("k8s"){
+            steps{
+                echo 'going to k8s'
+            }
+        }
     }
 }
