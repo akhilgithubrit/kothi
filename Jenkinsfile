@@ -25,5 +25,10 @@ pipeline{
                 echo 'going to k8s'
             }
         }
+        stage("terra"){
+            steps{
+                echo 'going to terra'
+            }
+        }
     }
 }
