@@ -27,7 +27,7 @@ pipeline{
         }
         stage("terra"){
             steps{
-                echo 'going to terra'
+                echo 'goingerra'
             }
         }
     }
